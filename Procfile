@@ -1,1 +1,1 @@
-web: grunt serve:dev
+web node app.js
