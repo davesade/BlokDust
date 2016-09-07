@@ -2,7 +2,7 @@
   "name": "BlokDust",
   "version": "1.0.12",
   "main": "Gruntfile.js",
-  "Dependencies": {
+  "dependencies": {
     "bower": "^1.7.9",
     "connect-livereload": "^0.4.0",
     "grunt": "~0.4.4",
@@ -22,4 +22,5 @@
   "scripts": {
   "start": "node server.js",
   "postinstall": "bash ./post_install.sh"
+  }
 }
