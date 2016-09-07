@@ -16,5 +16,14 @@
     "grunt-text-replace": "^0.4.0",
     "grunt-typescript": "^0.8.0",
     "requirejs": "2.2.0"
+  },
+  "scripts": {
+  "start": "node server.js",
+  "postinstall": "bash ./post_install.sh"
+},
+  "dependencies": {
+    "bower": "^1.7.9",
+    "grunt": "^0.4.5",
+    "minimatch": "^3.0.3"
   }
 }
