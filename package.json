@@ -6,6 +6,7 @@
     "bower": "^1.7.9",
     "connect-livereload": "^0.4.0",
     "grunt": "~0.4.4",
+    "grunt-cli": "0.1.13",
     "grunt-contrib-clean": "^0.6.0",
     "grunt-contrib-compress": "^0.13.0",
     "grunt-contrib-connect": "^0.8.0",
@@ -21,6 +22,6 @@
   },
   "scripts": {
   "start": "node server.js",
-  "postinstall": "bash ./post_install.sh"
+  "postinstall": "bower install; grunt build"
   }
 }
